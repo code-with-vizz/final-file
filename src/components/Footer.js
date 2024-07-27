@@ -2,6 +2,7 @@ import React from 'react';
 import { GrInstagram } from "react-icons/gr";
 import { SlSocialYoutube } from "react-icons/sl";
 import { TbBrandFacebook } from "react-icons/tb";
+import { FaWhatsapp } from "react-icons/fa";
 
 import { Link } from 'react-router-dom';
 
@@ -54,12 +55,12 @@ const Footer = () => {
                 <a className='border-[2px] border-grey flex items-center justify-center text-xl' style={{width:'50px', height:'50px', borderRadius:'50%'}} href='https://www.instagram.com/homedecore.yh' >
                 <GrInstagram />
              </a>
-             <div className='border-[2px] border-grey flex items-center justify-center text-xl' style={{width:'50px', height:'50px', borderRadius:'50%'}} >
-                <SlSocialYoutube />
-             </div>
-             <div className=' border-[2px] border-grey   flex items-center justify-center text-xl' style={{width:'50px', height:'50px', borderRadius:'50%'}} >
+             <a href=''className='border-[2px] border-grey flex items-center justify-center text-xl' style={{width:'50px', height:'50px', borderRadius:'50%'}} >
+             <FaWhatsapp />
+             </a>
+             <a href='https://www.facebook.com/profile.php?id=61562967882337' className=' border-[2px] border-grey   flex items-center justify-center text-xl' style={{width:'50px', height:'50px', borderRadius:'50%'}} >
                 <TbBrandFacebook />
-            </div>
+            </a>
                 </div>
               </div>
             

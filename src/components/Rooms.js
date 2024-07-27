@@ -82,7 +82,7 @@ const Rooms = () => {
         <p className='mt-2'>
        
         Iron furniture manufacturing is a meticulous and skilled process that combines traditional craftsmanship with modern techniques. It begins with the selection of high-quality raw iron, which is then heated and shaped into various forms using specialized tools and machinery. The shaping process often involves techniques such as forging, welding, and casting to create sturdy and intricate designs. Skilled artisans meticulously work on each piece, ensuring that the joints are seamless and the structures are robust. Once the basic framework is constructed, the furniture undergoes finishing processes such as sanding, polishing, and coating to enhance its durability and aesthetic appeal</p>
-        <button className='py-[2px] px-4 border border-zinc-900 rounded-3xl flex items-center gap-2 font-normal mt-4'>Design Services<IoIosArrowRoundForward className='font-bold text-3xl mt-1'/></button>
+        <Link to='/about' className='py-[2px] w-40 px-4 border border-zinc-900 rounded-3xl flex items-center gap-2 font-normal mt-4'>Know More<IoIosArrowRoundForward className='font-bold text-3xl mt-1'/></Link>
        </div>
       <div className=''>
         <img src='https://i.pinimg.com/564x/a0/04/ab/a004ab33d4a78dcec85c474dea141d97.jpg' alt='know image'/>

@@ -1,6 +1,5 @@
 import React from 'react';
-import { GrInstagram } from "react-icons/gr";
-import { SlSocialYoutube } from "react-icons/sl";
+import { FaInstagram } from "react-icons/fa";
 import { TbBrandFacebook } from "react-icons/tb";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -53,7 +52,7 @@ const Footer = () => {
                 <p className='text-slate-500 font-normal text-sm'>Follow Us</p>
                 <div className='flex items-center mt-3 gap-4'>
                 <a className='border-[2px] border-grey flex items-center justify-center text-xl' style={{width:'50px', height:'50px', borderRadius:'50%'}} href='https://www.instagram.com/homedecore.yh' >
-                <GrInstagram />
+                <FaInstagram />
              </a>
              <a href=''className='border-[2px] border-grey flex items-center justify-center text-xl' style={{width:'50px', height:'50px', borderRadius:'50%'}} >
              <FaWhatsapp />

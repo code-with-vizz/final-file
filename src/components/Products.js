@@ -370,7 +370,7 @@ export default function Products() {
   return (
     <div>
        <div>
-      <h1 className="text-5xl font-normal my-2 mt-10 mx-10 border-b border-gray-300 pb-4">Products</h1>
+      <h1 className="text-2xl lg:text-5xl md:text-4xl font-normal my-2 mt-10 mx-10 border-b border-gray-300 pb-4 text-center lg:text-start">Products</h1>
 
       </div>
       <Productcard 
